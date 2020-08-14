@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission 1</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <a href="#home"><img src="aset/covid.png" alt="Corona Virus" width="200px"></a>
+            </div>
+
+            <div class="nav-link">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#symptoms">Symptoms</a></li>
+                    <li><a href="#protection">Protection</a></li>
+                    <li><a href="#profile"><span class="bg-red"><b>Contact Me</b></span></a></li>
+                    <li><a href="" class="icon"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </div>
+
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <article id="home">
+                <div class="first-content">
+                    <div class="content-1">
+                        <h1>What is Corona Virus?</h1>
+                        <p class="mb-40">
+                            Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered
+                            coronavirus.
+                            Most people who fall sick with COVID-19 will experience mild to moderate symptoms and
+                            recover without special treatment.
+                        </p>
+                        <a href="#symptoms" class="btn-primary">Learn More</a>
+                        
+                    </div>
+                    
+
+                    <div class="content-2">
+                        <img src="aset/main.png" alt="Man" height="300px">
+                    </div>
+                </div>
+            </article>
+
+            <div class="d-flex">
+                <span id="text-sym" class="text-banner">Symptoms</span>
+            </div>
+
+            <article id="symptoms">
+                
+                    <div class="symptoms-1 card">
+                        <img src="aset/fever.png" alt="Fever" height="120px">
+                        <h2>Fever</h2>
+                        <p class="grey">A person with a fever will feel hot to touch on their back or chest.</p>
+                    </div>
+
+                    <div class="symptoms-2 card">
+                        <img src="aset/cough.png" alt="Dry Cough" height="120px">
+                        <h2>Dry Cough</h2>
+                        <p class="grey">Dry cough is a cough that does not produce mucus.</p>
+                    </div>
+
+                    <div class="symptoms-3 card">
+                        <img src="aset/sorethroat.png" alt="Sore Throat" height="120px">
+                        <h2>Sore Throat</h2>
+                        <p class="grey">Caused by bacteria known as <i>Streptococcus pyogenes</i></p>
+                    </div>
+            </article>
+
+            <article id="protection">
+
+                <div class="main-protection">
+                    <span class="text-banner">Protection</span>
+                    <img src="aset/shield.png" alt="Protection" height="400px">
+                </div>
+
+                <div class="sub-protection">
+                    <div class="protection-1">
+                        <div class="pic">
+                            <img src="aset/people.png" alt="People" width="60px" height="60px" class="img-card">
+                        </div>
+                        
+                        <div class="desc">
+                            <h2>Avoid <span class="bg-red">Crowded</span> Places</h2>
+                            <p>
+                                Avoid close contact with someone who is sick.
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="protection-2">
+                        <div class="pic">
+                            <img src="aset/home.png" alt="Home" width="60px" height="60px" class="img-card">
+                        </div>
+                        
+                        <div class="desc">
+                            <h2>Stay at <span class="bg-red">Home</span> </h2>
+                            <p>
+                                Do not go to work, school, or public areas, and do not use public transport or taxis.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="protection-3">
+
+                        <div class="pic">
+                            <img src="aset/wash.png" alt="Home" width="60px" height="60px" class="img-card">
+                        </div>
+                        
+                        <div class="desc">
+                            <h2>Wash <span class="bg-red">Hand</span></h2>
+                            <p>
+                                Reduce the spread of infection in your home by washing your hands regularly for 20 seconds using soap and water.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="protection-4">
+                        <div class="pic">
+                            <img src="aset/distance.png" alt="Home" width="60px" height="60px" class="img-card">
+                        </div>
+                        
+                        <div class="desc">
+                            <h2> <span class="bg-red">Social</span> Distancing</h2>
+                            <p>
+                                Do not go to work, school, or public areas, and do not use public transport or taxis.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+
+            <aside id="profile">
+                <div class="author">
+                    <img src="aset/author-edit.png" alt="Author" height="200px">
+                    <h3 class="bg-red" id="nameAuthor">Achmad Fadhil Pratama</h3>
+                    <p><b>0822-5136-9305</b></p>
+                </div>
+            </aside>
+
+            <section id="change-profile">
+                <div class="change-name">
+                    <input id="change" type="text" placeholder="Change name">
+                    
+                    <div class="inline">
+                        <button id="btnChange" class="btn-change" type="button" onclick="changeUserName()">Change Name</button>
+                        
+                        <button id="resetName" class="btn-reset" type="button" onclick="reset()">Reset</button>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        &#169; Achmad Fadhil Pratama. Images by <a href="https://www.freepik.com/" class="blue" target="_blank"><b>Freepik</b></a>.
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

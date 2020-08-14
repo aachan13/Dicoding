@@ -1,0 +1,311 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #AF1714;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #d34543;
+}
+
+/* Navigation Bar */
+nav {
+    overflow: hidden;
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 24px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.nav-logo {
+    flex: 1;
+}
+
+.nav-link {
+    flex: 1;
+    align-self: center;
+    text-align: right;
+}
+
+.d-flex {
+    display: flex;
+    margin-top: 80px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* content */
+
+h1 {
+    font-size: 48px;
+}
+
+.first-content {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.content-1 {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.content-2 {
+    padding-top: 40px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#symptoms {
+    padding: 0 36px;
+    display: flex;
+}
+
+#text-sym {
+    flex: 1;
+    text-align: right;
+}
+
+.symptoms-1 {
+    flex: 1;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.symptoms-2 {
+    flex: 1;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.symptoms-3 {
+    flex: 1;
+    text-align: center;
+}
+
+#protection {
+    margin-top: 80px;
+    display: flex;
+    padding: 0 36px 0 0;
+    /* background-color: #F9F1EA; */
+}
+
+.main-protection {
+    flex: 1;
+    align-self: center;
+}
+
+.sub-protection {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+.protection-1 {
+    flex: 1;
+    display: flex;
+}
+
+.pic {
+    flex: 1;
+    align-self: center;
+}
+
+.img-card {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 20px;
+}
+
+.desc {
+    flex: 2;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.protection-2 {
+    flex: 1;
+    display: flex;
+}
+
+.protection-3 {
+    flex: 1;
+    display: flex;
+}
+
+.protection-4 {
+    flex: 1;
+    display: flex;
+}
+
+/* aside  */
+
+aside {
+    display: flex;
+    margin: 60px 60px 0px 60px;
+    justify-content: center;
+    background-image: url(./aset/bg-author.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.author {
+    text-align: center;
+    width: 40%;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-change {
+    background-color: #3678da;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    margin-right: 6px;
+}
+
+.btn-reset {
+    background-color: #AF1714;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+.btn-change:hover {
+    background-color: #699FF0;
+}
+
+.btn-reset:hover {
+    background-color: #FB7369;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* color  */
+.blue {
+    color: #699FF0;
+}
+
+.soft-red {
+    color: #FB7369;
+}
+
+.bg-red {
+    color: #AF1714;
+}
+
+.text-white {
+    color: white;
+}
+
+.inline {
+    display: inline;
+}
+
+.text-banner {
+    font-size: 48px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.change-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+    
+}
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+@media screen and (max-width: 600px) {
+    
+}
