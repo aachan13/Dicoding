@@ -9,9 +9,10 @@ function changeUserName(){
     if (input.length == 0) {
         alert('Isi input terlebih dahulu!')
     }
-
-    name.innerText = input;
-
+    else{
+        name.innerText = input;
+    }
+    
 }
 
 function reset(){

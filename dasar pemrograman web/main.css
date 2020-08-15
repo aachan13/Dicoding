@@ -108,6 +108,11 @@ h1 {
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.4);
 }
 
 #symptoms {
@@ -141,7 +146,6 @@ h1 {
     margin-top: 80px;
     display: flex;
     padding: 0 36px 0 0;
-    /* background-color: #F9F1EA; */
 }
 
 .main-protection {
@@ -261,9 +265,11 @@ input {
 /* footer */
 
 footer {
-    margin-top: 40px;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
+    width: 1000px;
+    margin: 0 auto;
+    letter-spacing: 1px;
 }
 
 /* color  */
@@ -271,16 +277,13 @@ footer {
     color: #699FF0;
 }
 
-.soft-red {
-    color: #FB7369;
-}
 
 .bg-red {
     color: #AF1714;
 }
 
-.text-white {
-    color: white;
+.green{
+    color: #88f069;
 }
 
 .inline {
@@ -302,10 +305,188 @@ footer {
 /* responsive */
 
 @media screen and (max-width: 992px) {
+    nav {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+        display: block;
+        flex: 1;
+    }
+
+    .nav-logo {
+        text-align: center;
+        flex: 1;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-content {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 24px;
+    }
     
+    .content-1 {
+        padding: 16px;
+    }
+    
+    .content-2 {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #text-sym {
+        flex: 1;
+        text-align: center;
+        padding: 16px;
+    }
+
+    #symptoms {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .d-flex {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .symptoms-1 {
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    .symptoms-2 {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #protection {
+        margin-top: 40px;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .main-protection {
+        flex: 1;
+        align-self: center;
+        text-align: center;
+    }
+
+    .author {
+        text-align: center;
+        width: 100%;
+    }
+
+    #imgShield{
+        overflow: hidden;
+    }
+
+    footer{
+        width: 100%;
+    }
 }
 
 /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
 @media screen and (max-width: 600px) {
+    nav {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+        display: block;
+        flex: 1;
+    }
+
+    .nav-logo {
+        text-align: center;
+        flex: 1;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-content {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 24px;
+    }
     
+    .content-1 {
+        padding: 16px;
+    }
+    
+    .content-2 {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #text-sym {
+        flex: 1;
+        text-align: center;
+        padding: 16px;
+    }
+
+    #symptoms {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .d-flex {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .symptoms-1 {
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    .symptoms-2 {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #protection {
+        margin-top: 40px;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .main-protection {
+        flex: 1;
+        align-self: center;
+        text-align: center;
+    }
+
+    .author {
+        text-align: center;
+        width: 100%;
+    }
+
+    #imgShield{
+        overflow: hidden;
+    }
+
+    footer{
+        width: 100%;
+    }
 }
