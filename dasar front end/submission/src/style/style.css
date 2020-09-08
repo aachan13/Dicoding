@@ -1,13 +1,33 @@
-h1 {
-    color: red;
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
 
-#content{
-    width: 100%;
-    text-align: center;
+p{
+    font-weight: 400;
+    transition: .3s;
 }
 
-#content-2{
-    width: 100%;
-    text-align: center;
+.card{
+    border-radius: 12px;
 }
+
+.green-color{
+    color: green;
+    font-weight: 500;
+}
+
+.orange-custom{
+    color: #f99d25;
+}
+
+.green-custom{
+    color: rgb(49, 153, 49);
+}
+
+.red-custom{
+    color: #e92926;
+}
+
+
+
+
